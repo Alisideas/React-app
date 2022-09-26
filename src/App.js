@@ -40,7 +40,7 @@ const App = () => {
       });
   }; 
   return (
-    <div className="bgcolors">
+    <div >
       <NewExpense onAddExpense = {addExpenseHandler} />
       <Expenses items={expenses} />
     </div>
